@@ -3,10 +3,12 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { FaPaperPlane } from "react-icons/fa";
 import {motion } from "framer-motion"
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Contact() {
+    const { ref } = useSectionInView("Contact");
   return (
-    <motion.section id="contact" className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+    <motion.section ref={ref} id="contact" className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
     initial={{
         opacity:0,
     }}
@@ -15,7 +17,12 @@ export default function Contact() {
     }}
     transition={{
         duration:1,
-    }}>
+    }}
+    viewport={{
+        once:true,
+    }}
+    
+    >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
         Please contact me directly at{" "}
