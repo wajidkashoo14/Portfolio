@@ -86,7 +86,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -95,7 +95,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full hover:text-gray-950 focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition cursor-pointer border border-black/10"
+          className="bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full hover:text-gray-950 focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/wajid-kashoo-211046208"
           target="_blank"
         >
@@ -103,7 +103,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 flex text-gray-700 items-center gap-2 text=[1.35rem] rounded-full hover:text-gray-950 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="bg-white p-4 flex text-gray-700 items-center gap-2 text=[1.35rem] rounded-full hover:text-gray-950 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
           href="https://github.com/wajidkashoo14"
           target="_blank"
         >
