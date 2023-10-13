@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import travel from "@/public/travels.png";
+import carpalar from "@/public/carpalar.png";
+import handicrafts from "@/public/handicrafts.png";
 
 export const links = [
   {
@@ -66,21 +66,21 @@ export const projectsData = [
     description:
       "I worked as a frontend developer on this project for three months. Users can go through various tour packages and filter them.",
     tags: ["React", "Next.js", "Chakra UI", "Swiper", "React Paginate", "React Slick"],
-    imageUrl: corpcommentImg,
+    imageUrl: travel,
   },
   {
     title: "Carpalar",
     description:
       "I worked as frontend developer on this project where user can rent a car or buy a car.",
     tags: ["React", "Next.js", "Chakra UI", "Framer Motion", "Axios"],
-    imageUrl: rmtdevImg,
+    imageUrl: carpalar,
   },
   {
     title: "Baba Handicrafts",
     description:
       "Developed a portfolio for Non profit organization to showcase their work and what they offer.",
     tags: ["HTML", "Css", "Bootstrap"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: handicrafts,
   },
 ] as const;
 
