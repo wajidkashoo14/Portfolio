@@ -64,22 +64,22 @@ export const projectsData = [
   {
     title: "Syed Tour and Travels",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a frontend developer on this project for three months. Users can go through various tour packages and filter them.",
+    tags: ["React", "Next.js", "Chakra UI", "Swiper", "React Paginate", "React Slick"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Carpalar",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I worked as frontend developer on this project where user can rent a car or buy a car.",
+    tags: ["React", "Next.js", "Chakra UI", "Framer Motion", "Axios"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Baba Handicrafts",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a portfolio for Non profit organization to showcase their work and what they offer.",
+    tags: ["HTML", "Css", "Bootstrap"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -87,14 +87,15 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Bootstrap",
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Chakra UI",
   "Git",
   "Tailwind",
   "Ant Design",
-  "Redux",
   "Framer Motion",
 ] as const;
