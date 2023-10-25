@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Syed Tour and Travels",
     description:
-      "I worked as a frontend developer on this project for three months. Users can go through various tour packages and filter them.",
+      "I worked as a frontend developer on this project. Users can go through various tour packages and filter them.",
     tags: ["React", "Next.js", "Chakra UI", "Swiper", "React Paginate", "React Slick"],
     imageUrl: travel,
   },
