@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About")
+  const { ref } = useSectionInView("About");
   return (
     <motion.section
       ref={ref}
@@ -16,31 +16,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        {`Hey there! I'm Wajid Kashoo, a passionate and results-driven web developer hailing from the picturesque valley of Kashmir. Armed with a`}
+        <span className="font-medium"> BCA</span> and{" "}
+        <span className="font-medium">MCA</span>
+        {` from Kashmir University, my journey into the world of technology began with a formal education, but my true passion ignited when I stepped into the dynamic realm of freelance web development in 2022.
+        In the digital landscape, I've found my canvas, and coding has become my brushstroke. With a keen eye for design and a knack for turning ideas into interactive and functional websites, I've been on a mission to elevate online experiences.
+         I am always looking to
+        learn new technologies. I am currently looking for a`}
+        <span className="font-medium"> full-time position</span> as a Frontend
         developer.
-      </p>
-      <p>
-        {" "}
-        <span className="italic">{`When I'm not coding`}</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>.
-        {` I'm also
-        learning how to play the guitar.`}
       </p>
     </motion.section>
   );
